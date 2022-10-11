@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# added
+charity_data.csv
+starter_code.ipynb
+
 # C extensions
 *.so
 
