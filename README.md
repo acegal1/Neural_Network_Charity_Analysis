@@ -36,17 +36,17 @@ kaggle charity_data.csv which contains 34,299 organizations that have received f
 5. Were you able to achieve the target model performance?
 	The target for the model was 75%, but first run using the Renu function for both 1 and 2 hidden layers produced accuracy of 72%. 
 
-	![Renu](https://github.com/acegal1/Neural_Network_Charity_Analysis/blob/main/images/renu.png)
+	![ReLu](https://github.com/acegal1/Neural_Network_Charity_Analysis/blob/main/images/renu.png)
 
 
 6. What steps did you take to try and increase model performance?
 	To increase the performance of the model, I applied a different activation function (tanh) which did increase the accuracy to 73%. 
 
-	![Tanh](https://github.com/acegal1/Neural_Network_Charity_Analysis/blob/main/images/Tanh.png)
+	![Tanh](https://github.com/acegal1/Neural_Network_Charity_Analysis/blob/main/images/tanh.png)
 
-	Final run increased the number of Epochs to 300 for the training regimen. Then added third hidden layer with all using the relu functions. It's recommended if your model still requires optimizations and tweaking to meet desired performance, you can increase the number of epochs, or training iterations. As the number of epochs increases, so does the amount of information provided to each neuron. By providing each neuron more information from the input data, the neurons are more likely to apply more effective weight coefficients.   
+	Final run increased the number of Epochs from 100 to 300 for the training regimen. Then added third hidden layer with all using the relu functions. It's recommended if your model still requires optimizations and tweaking to meet desired performance, you can increase the number of epochs, or training iterations. As the number of epochs increases, so does the amount of information provided to each neuron. By providing each neuron more information from the input data, the neurons are more likely to apply more effective weight coefficients. Still only achieved 73%. 
 
-	![Epochs](https://github.com/acegal1/Neural_Network_Charity_Analysis/blob/main/images/epochs.png)
+	![Epochs](https://github.com/acegal1/Neural_Network_Charity_Analysis/blob/main/images/epochs.png) 
 
 # Summary
 The deep learning neural network model did not reach the target of 75% accuracy and I would 75% still not be considered average in performance. At this point I thought of implementing a different machine learning model such as Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.  
